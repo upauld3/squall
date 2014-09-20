@@ -1,3 +1,22 @@
 task wrapper(type: Wrapper) {
   gradleVersion = '2.0'
 }
+
+// Remember to set "org.gradle.daemon=true" in your .gradle/gradle.properties file to speed up builds
+
+Closure listMeClosure = { task -> println "Project: $task.project.name" }
+
+task listMe << listMeClosure
+
+project(':squall-core') {
+  task listMe << listMeClosure
+}
+
+project(':examples/squall-starter') {
+  task listMe << listMeClosure
+}
+
+project(':external/squall-kafka') {
+  task listMe << listMeClosure
+}
+

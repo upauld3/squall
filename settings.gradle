@@ -1,0 +1,1 @@
+include 'squall-core', 'examples/squall-starter', 'external/squall-kafka'
