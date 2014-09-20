@@ -2,7 +2,7 @@ squall
 ======
 
 a distributed computation framework written in Java and using Gradle
-  similar to and pulling ideas and source from [Storm] (https://storm.incubator.apache.org/)
+<br> similar to and pulling ideas and source from [Storm] (https://storm.incubator.apache.org/)
 
 ## Goals:
 * Easy to Use
