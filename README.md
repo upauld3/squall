@@ -9,3 +9,8 @@ a distributed computation framework written in Java and using Gradle
 * Easy Web Installation
 * Pure Java code base
 * Minimal Dependencies
+
+### For the Github Markdown impared (such as I am): 
+*[Markdown Cheat Sheet] (http://support.mashery.com/docs/read/customizing_your_portal/Markdown_Cheat_Sheet)
+* [GitHub Flavored Markdown] (https://help.github.com/articles/github-flavored-markdown)
+* [Writing on GitHub] (https://help.github.com/articles/writing-on-github)
